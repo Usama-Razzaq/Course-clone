@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+#header {
+    background-color: #fff;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0px 10px 25px 5px #F7F7F7;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 2px;
+}
+
+.red {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.lightgreen {
+    color: #1A7F78;
+    border-bottom: 2px solid #1A7F78;
+}
+
+.purple {
+    color: #645B98;
+    border-bottom: 2px solid #645B98;
+}
+
+.blue {
+    color: #7B2D6D;
+    border-bottom: 2px solid #7B2D6D;
+}
+
+.nav ul li a:hover {
+    color: black;
+    border: none;
+}
+
+/* <<<<<  Courses section starts here   >>>>> */
+
+.course-section {
+    width: 50%;
+    margin: 70px auto;
+}
+
+.course-section .title {
+    color: #1A7F78;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: -1;
+
+}
+
+.anchor {
+    color: #1A7F78;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.anchor:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.para {
+    font-size: 20px;
+    /* max-width: 80%; */
+    /* width: 100%; */
+    margin-top: 20px;
+}
+
+/* <<<<<<<<< flexbox >>>>>>> */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.flex-card {
+    width: 33%;
+    font-size: 16px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 4px 4px 0px #dedede, -4px -3px 7px #dedede;
+    border-radius: 2px;
+    /* border: 1px solid red; */
+}
+
+.flex-card h2 {
+    font-size: 30px;
+    padding: 15px 0;
+    line-height: 30px;
+}
+
+.flex-card h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.flex-card h2 a:hover {
+    color: #1A7F78;
+}
+
+.flex-card h3 {
+    padding: 10px 0;
+}
+
+.flex-card p {
+    padding: 10px 0;
+}
+
+.card-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1A7F78;
+    border-radius: 25px;
+    /* padding: 12px 31px; */
+    /* margin: 15px 0px; */
+    /* border: 1px solid gray; */
+}
+
+footer {
+    background-color: #DEDEDE;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.foot-itmes {
+
+    width: 30%;
+    margin: 0 auto;
+}
+
+footer .social-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+footer .social-list a {
+    text-decoration: underline;
+    color: #000;
+}
+
+footer .social-list a:hover {
+    color: red;
+}
